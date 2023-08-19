@@ -37,6 +37,7 @@ h1 {
   font-size: 3.2rem;
   text-align: center;
 }
+p .highlight,
 h1 .highlight,
 h3 .highlight {
   color: var(--qwik-light-blue);
@@ -125,9 +126,10 @@ button {
   background: var(--qwik-light-blue);
   border: none;
   border-radius: 8px;
-  color: white;
+  color: #7303fc;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
   padding: 15px 20px;
   text-align: center;
 }
@@ -159,8 +161,8 @@ button.button-small {
   height: 400px;
   background: radial-gradient(
     57.58% 57.58% at 48.79% 42.42%,
-    rgba(24, 180, 244, 0.5) 0%,
-    rgba(46, 55, 114, 0) 63.22%
+    rgba(244, 175, 212, 0.5) 0%,
+    rgba(223, 180, 242, 0) 63.22%
   );
   transform: rotate(5deg);
   opacity: 0.5;

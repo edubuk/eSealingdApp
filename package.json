@@ -1,6 +1,7 @@
 {
   "name": "my-qwik-basic-starter",
   "description": "Demo App with Routing built-in (recommended)",
+  "version": "0.1.0",
   "engines": {
     "node": ">=15.0.0"
   },
@@ -34,5 +35,16 @@
     "undici": "5.22.1",
     "vite": "4.4.7",
     "vite-tsconfig-paths": "4.2.0"
+  },
+  "dependencies": {
+    "@concordium/react-components": "^0.3.0",
+    "@thi.ng/leb128": "^3.0.28",
+    "@types/sha256": "^0.2.0",
+    "@walletconnect/types": "^2.10.0",
+    "mathjs": "^11.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-switch": "^7.0.0",
+    "sha256": "^0.2.0"
   }
 }

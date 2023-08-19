@@ -13,28 +13,18 @@ export default component$(() => {
         </div>
         <ul>
           <li>
-            <a
-              href="https://qwik.builder.io/docs/components/overview/"
-              target="_blank"
-            >
-              Docs
-            </a>
+            <div class={styles["button-group"]}>
+              <button>
+                Use Browser Wallet
+              </button>
+            </div>
           </li>
           <li>
-            <a
-              href="https://qwik.builder.io/examples/introduction/hello-world/"
-              target="_blank"
-            >
-              Examples
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://qwik.builder.io/tutorial/welcome/overview/"
-              target="_blank"
-            >
-              Tutorials
-            </a>
+            <div class={styles["button-group"]}>
+              <button>
+                Use Wallet Connect
+              </button>
+            </div>
           </li>
         </ul>
       </div>

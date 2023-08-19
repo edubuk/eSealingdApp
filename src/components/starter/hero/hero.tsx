@@ -1,27 +1,27 @@
 import { component$ } from "@builder.io/qwik";
 import styles from "./hero.module.css";
-import ImgThunder from "~/media/thunder.png?jsx";
+// import ImgThunder from "~/media/thunder.png?jsx";
 
 export default component$(() => {
   return (
     <div class={["container", styles.hero]}>
-      <ImgThunder class={styles["hero-image"]} />
+      {/* <ImgThunder class={styles["hero-image"]} /> */}
       <h1>
-        So <span class="highlight">fantastic</span>
+        Edubuk
         <br />
-        to have <span class="highlight">you</span> here
+        <span class="highlight">eSeal</span> dApp
       </h1>
-      <p>Have fun building your App with Qwik.</p>
+      <p style="font-size: 24px">Your Authentic <span class="highlight">Certificates</span></p>
       <div class={styles["button-group"]}>
-        <button
+        <button style="color: #7303fc; font-weight: 900"
           onClick$={async () => {
             const defaults = {
               spread: 360,
               ticks: 70,
               gravity: 0,
-              decay: 0.95,
-              startVelocity: 30,
-              colors: ["006ce9", "ac7ff4", "18b6f6", "713fc2", "ffffff"],
+              decay: 0.90,
+              startVelocity: 25,
+              colors: ["#b0f7f2", "#f4afd4", "#ffc8ae", "#b7f7bf", "#dfb4f2"],
               origin: {
                 x: 0.5,
                 y: 0.35,
@@ -67,15 +67,15 @@ export default component$(() => {
             setTimeout(shoot, 400);
           }}
         >
-          Time to celebrate
+          eSeal Your Certificates
         </button>
-        <a
-          href="https://qwik.builder.io/docs"
-          target="_blank"
-          class="button button-dark"
-        >
-          Explore the docs
-        </a>
+        {/* <a */}
+        {/*   href="https://qwik.builder.io/docs" */}
+        {/*   target="_blank" */}
+        {/*   class="button button-dark" */}
+        {/* > */}
+        {/*   Explore the docs */}
+        {/* </a> */}
       </div>
     </div>
   );
