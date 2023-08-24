@@ -10,17 +10,21 @@
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   max-width: 300px;
   margin: auto;
   text-align: center;
   padding: 10px;
   font-size: 1.5em;
   margin-bottom: 10vh;
+  border: 3px solid #ff80dfff;
+  border-radius: 8px;
+  margin-top: 10vh;
 }
 
 .card a {
-  color: var(--qwik-light-purple)
+  color: var(--qwik-light-purple);
+  font-size: 1.8em;
 }
 
 .title {

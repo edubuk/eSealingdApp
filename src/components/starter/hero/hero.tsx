@@ -7,14 +7,14 @@ import Profiles from "../profiles/profiles";
 export default component$(() => {
   return (
     <div style="display: block; padding: 0;">
-    <div class={["container", styles.hero]} style="padding-top: 0vh;">
+    <div class={["container", styles.hero]} style="padding-top: 5vh;">
       <span style="border: 3px solid #ff80dfff; padding: 2em; border-radius: 8px;">
         <h1>
           Edubuk
           <br />
           <span class="highlight">eSeal</span> dApp
         </h1>
-        <p style="font-size: 24px; padding-top: 3vh; text-align: center"><span class="highlight">Your Authentic </span><span class="highlight">Certificates</span></p>
+        <p style="font-size: 24px; padding-top: 3vh; text-align: center"><span class="highlight">Powered By Concordium</span></p>
         <div class={styles["button-group"]} style="justify-content: center; padding-top: 3vh">
             <a href="#sealer">
           <button style="color: #ffffff; font-weight: 600"
@@ -77,7 +77,7 @@ export default component$(() => {
         </div>
       </span>
     </div>
-    <div class={["container", styles.hero]} id="sealer" style="padding-bottom: 10vh;">
+    <div class={["container", styles.hero]} id="sealer" style="padding-top: 25vh; padding-bottom: 10vh;">
       <Sealer />
     </div>
       <div>

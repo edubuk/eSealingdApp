@@ -18,10 +18,9 @@ export default component$(() => {
         </div>
         <a href="https://www.edubuk.io/" target="_blank" class={styles.anchor}>
           <span style="color: #ffffff; font-weight: 600;">Made with ❤️  by Edubuk.io</span>
-          {/* <span style="color: #7303fcff; font-weight: 600;">Made with ❤️  by Edubuk.io</span> */}
         </a>
         <div style="padding-top: 2vh; justify-content: center; text-align: center">
-        <span style="padding-top: 1em; font-weight: 600; color: #ffffff"><span style="font-size: 1.2em">©</span> Copyright 2023 - Edubuk</span>
+          <span style="padding-top: 1em; font-weight: 600; color: #ffffff"><span style="font-size: 1.2em">©</span> Copyright 2023 - Edubuk</span>
         </div>
       </div>
     </footer>
