@@ -40,6 +40,7 @@
     "@concordium/react-components": "^0.3.0",
     "@thi.ng/leb128": "^3.0.28",
     "@types/sha256": "^0.2.0",
+    "@unpic/qwik": "^0.0.25",
     "@walletconnect/types": "^2.10.0",
     "mathjs": "^11.9.1",
     "react": "^18.2.0",

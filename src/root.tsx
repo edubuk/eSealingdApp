@@ -21,7 +21,8 @@ export default component$(() => {
       <head>
         <meta charSet="utf-8" />
         <link rel="manifest" href="/manifest.json" />
-        <RouterHead />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+       <RouterHead />
         <ServiceWorkerRegister />
       </head>
       <body lang="en">

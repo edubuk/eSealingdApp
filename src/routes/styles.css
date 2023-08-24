@@ -29,7 +29,7 @@ body {
 h1,
 h2,
 h3 {
-  color: white;
+  color: var(--qwik-dark-text);
   margin: 0;
 }
 
@@ -40,7 +40,7 @@ h1 {
 p .highlight,
 h1 .highlight,
 h3 .highlight {
-  color: var(--qwik-light-blue);
+  color: var(--qwik-dark-text);
 }
 
 h2 {
@@ -87,7 +87,7 @@ ul {
 /* CONTAINER ------------------------------------ */
 .container {
   margin: 0 auto;
-  padding: 30px 40px;
+  padding: 10px 20px;
 }
 .container.container-purple {
   background: var(--qwik-light-purple);
@@ -99,16 +99,16 @@ ul {
 .container.container-center {
   text-align: center;
 }
-.container.container-flex {
-  /* does nothing on mobile */
-}
+/* .container.container-flex { */
+/*   /* does nothing on mobile */ */
+/* } */
 .container.container-spacing-xl {
-  padding: 50px 40px;
+  padding: 20px 40px;
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 50px 80px;
+    padding: 20px 40px;
   }
   .container.container-spacing-xl {
     padding: 100px 60px;
@@ -123,10 +123,10 @@ ul {
 /* BUTTONS -------------------------------------- */
 a.button,
 button {
-  background: var(--qwik-light-blue);
+  background: var(--qwik-dark-text);
   border: none;
   border-radius: 8px;
-  color: #7303fc;
+  color: #ffffff;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
@@ -165,11 +165,11 @@ button.button-small {
     rgba(223, 180, 242, 0) 63.22%
   );
   transform: rotate(5deg);
-  opacity: 0.5;
+  opacity: 1;
   z-index: -1;
 }
 .ellipsis.ellipsis-purple {
-  top: 1350px;
+  top: 500px;
   left: -100px;
   background: radial-gradient(
     50% 50% at 50% 50%,
